@@ -2,23 +2,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<title>Autoplay Video</title>
 <style>
-  body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: #000;
-  }
-  video {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
+    body{
+        margin:0;
+        padding:0;
+        overflow:hidden;
+    }
+    video{
+        width:100vw;
+        height:100vh;
+        object-fit:cover;
+        cursor:pointer;
+    }
 </style>
 </head>
 <body>
-  <video autoplay muted playsinline loop>
-    <source src="vidajeng.mp4" type="video/mp4">
-  </video>
+
+<!-- Video yang autoplay + mute (wajib mute kalau mau autoplay) -->
+<a href="https://lynk.id/ajengwahys/3vndxok5q8gz">
+    <video autoplay muted loop playsinline>
+        <source src="https://raw.githubusercontent.com/haanmadee/vidajeng/main/vidajeng.mp4" type="video/mp4">
+    </video>
+</a>
+
 </body>
 </html>
